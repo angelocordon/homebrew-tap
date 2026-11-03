@@ -2,19 +2,19 @@
 class Doppio < Formula
   desc "Keep your Mac awake for a set time, with a live countdown"
   homepage "https://github.com/angelocordon/doppio"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/angelocordon/doppio/releases/download/v0.2.0/doppio-darwin-arm64.tar.gz"
-    sha256 "d61c8675afddf096c549c57e406b8d20eee81d74379236e9e12fd2bf8020bff0"
+    url "https://github.com/angelocordon/doppio/releases/download/v0.3.0/doppio-darwin-arm64.tar.gz"
+    sha256 "b959cf4ab2bc2013cab331345066814afc22d1cb44f2f320318aa1ee07f7bbb3"
   end
 
   on_intel do
-    url "https://github.com/angelocordon/doppio/releases/download/v0.2.0/doppio-darwin-x64.tar.gz"
-    sha256 "8c31bbde0445d1d8a375b5a1cb4a814c134feb45085aa824505c37406c6e5c36"
+    url "https://github.com/angelocordon/doppio/releases/download/v0.3.0/doppio-darwin-x64.tar.gz"
+    sha256 "c1fdf8ebc1d72c220f55a879c37e8b692457ac1e6ba36b5a1ffac25599e89021"
   end
 
   def install
